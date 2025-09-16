@@ -1,0 +1,33 @@
+
+  //________________________________
+
+  .button-task{
+
+      color: rgb(0,212,212);
+      font-size: $l-size;
+      font-family: Helvetica, Arial, sans-serif;
+      background-color:black;
+      border: none;
+      width: 200px;
+      height: 50px ;
+      padding: 10px;
+      margin: 5px;
+
+  }
+
+  .button-Gram{
+
+    height: 30px
+  }
+
+  .image-display {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-display img {
+    margin: 5px;
+}
+ 

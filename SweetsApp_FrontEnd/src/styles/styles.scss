@@ -1,0 +1,11 @@
+@import './base/settings';
+@import './base/base';  //importing base scss onto main rendering page of scss
+@import './components/header';
+@import './components/container';
+@import './components/button';
+@import './components/dropdown';
+@import './components/listItem';
+@import './components/image';
+@import './components/login';
+@import './components/checkout';
+@import './components/pokemon';

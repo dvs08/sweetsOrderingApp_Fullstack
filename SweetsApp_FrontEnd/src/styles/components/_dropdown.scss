@@ -1,0 +1,39 @@
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgb(198, 97, 181); 
+        width: 120px; 
+        z-index: 10;
+         //top: 150%;
+    //     left: 0;
+
+    }
+    
+    .dropdown-content a:hover {
+        background-color: lightgrey; 
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block; 
+    }
+
+  
+    .dropdown-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+    
+    
+    .dropdown-wrapper:hover .dropdown-content {
+        display: block;
+    }
+
+

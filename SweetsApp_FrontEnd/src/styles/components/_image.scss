@@ -1,0 +1,17 @@
+.image-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    padding: 10px; 
+    justify-content: center;
+    align-items: flex-end;
+    border: 2px solid black;
+    height: 450px;
+    overflow-y: auto;
+}
+
+.image-container img {
+    width: 300px; 
+    height: 300px; 
+}
+
